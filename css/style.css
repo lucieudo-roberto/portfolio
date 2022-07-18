@@ -13,7 +13,7 @@
 
 html body {font-size: 17px;}
 
-#main-menu {
+#head-menu {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	position: relative;
@@ -24,7 +24,7 @@ html body {font-size: 17px;}
 	text-align: center;
 }
 
-.main-menu-link {
+.head-menu-link {
 	display: block;
 	font: 200 1.2rem/1 sans-serif;
 	padding: 6% 3%;
@@ -34,29 +34,30 @@ html body {font-size: 17px;}
 	background: var(--dark-color);
 }
 
-.main-menu-link:hover {
+.head-menu-link:hover {
 	text-decoration: underline;
 	text-decoration-thickness: 3px;
 	text-decoration-color: var(--orag-color);
 	color: var(--blue-color);
 }
-.tab-selected {        /* X Y*/                               /*V*/
-	clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 47.5% 80%,45% 100%,0 100%);
-}
 
-#home-section {
+#body-main {
 	width: 99%;
-	margin: 5% auto;
+	margin: 10% auto;
 	display: grid;
 	grid-template-columns: 65% 35%;
 }
 
-#home-section-block-a {
+#body-main #left-box {
 	width: 70%;
 	margin-left: 15%;
 }
 
-.block-a-titles {
+#body-main #left-box #title-box {
+	width: 100%;
+}
+
+#body-main #left-box #title-box .title {
 	display: block;
 	width: 100%;
 	text-align: justify;
@@ -64,12 +65,7 @@ html body {font-size: 17px;}
 	color: var(--dark-color);
 }
 
-#my-name {
-	color: var(--orag-color);
-	font-weight: 500;
-}
-
-#block-a-describle {
+#body-main #left-box #description {
 	display: block;
 	width: 100%;
 	margin: 2% 0;
@@ -79,7 +75,7 @@ html body {font-size: 17px;}
 	color: var(--dark-color);
 }
 
-#block-a-button {
+#body-main #left-box #about-me-bnt {
 	display: block;
 	width: 25%;
 	margin-top: 10%;
@@ -91,18 +87,18 @@ html body {font-size: 17px;}
 	background: var(--dark-color)
 }
 
-#block-a-button:hover {
+#body-main #left-box #about-me-bnt:hover {
 	background-color: var(--orag-color);
 }
 
-#block-a-links {
+#body-main #left-box #social-box {
 	margin-top: 10%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	width: 100%;
 }
 
-.left-block-social-links {
+#body-main #left-box #social-box .social-link {
 	width: 100%;
 	text-align: center;
 	font: 300 1.2rem/1.2 Sans-serif;
@@ -110,24 +106,31 @@ html body {font-size: 17px;}
 	
 }
 
-.left-block-social-links:hover {
-	color: var(--orag-color);
-}
-
-.social-images {
+#body-main #left-box #social-box .social-link .social-images {
 	width: 14%;
 	vertical-align: middle;
 	margin-right: 3%;
 }
 
-#my-profile-image {
+#body-main #left-box #social-box .social-link:hover {
+	color: var(--orag-color);
+}
+
+
+#right-box {
+	width: 100%;
+	text-align: center;
+}
+
+#right-box #my-profile-image {
 	display: block;
 	margin: 5% auto;
+	vertical-align: middle;
 	width: 70%;
 }
 
 
-
+#my-name { color: var(--orag-color); font-weight: 500;}
 
 
 
