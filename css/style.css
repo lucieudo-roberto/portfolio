@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+:root {
+	--dark-color: #2d383c; 
+	--ligh-color: #f4f4f4;
+	--dark-color: #2d383c;
+	--ligh-color: #f4f4f4;
+	--blue-color: #39ace7;
+	--orag-color: #EF5B0C;	
+}
+
+
+html body {font-size: 17px;}
+
+#main-menu {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	position: relative;
+	padding: .5%;
+	top: 0; left:0;
+	width: 100%;
+    background-color: var(--light-color);
+	text-align: center;
+}
+
+.main-menu-link {
+	display: block;
+	font: 200 1.2rem/1 sans-serif;
+	padding: 6% 3%;
+	margin: 0;
+	width: 100%;
+	color: var(--ligh-color);
+	background: var(--dark-color);
+}
+
+.main-menu-link:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-decoration-color: var(--orag-color);
+	color: var(--blue-color);
+}
+.tab-selected {        /* X Y*/                               /*V*/
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 47.5% 80%,45% 100%,0 100%);
+}
+
+#home-section {
+	width: 99%;
+	margin: 5% auto;
+	display: grid;
+	grid-template-columns: 65% 35%;
+}
+
+#home-section-block-a {
+	width: 70%;
+	margin-left: 15%;
+}
+
+.block-a-titles {
+	display: block;
+	width: 100%;
+	text-align: justify;
+	font: 200 2.3rem/1.4 'Poppins', Sans-serif;
+	color: var(--dark-color);
+}
+
+#my-name {
+	color: var(--orag-color);
+	font-weight: 500;
+}
+
+#block-a-describle {
+	display: block;
+	width: 100%;
+	margin: 2% 0;
+	text-align: left;
+	text-indent: 32px;
+	font: 220 .9rem/1.4 Sans-serif;
+	color: var(--dark-color);
+}
+
+#block-a-button {
+	display: block;
+	width: 25%;
+	margin-top: 10%;
+	padding: 1.5%;
+	text-align: center;
+	border-radius: 20px;
+	font: 550 .9rem/1.2 Sans-serif;
+	color: var(--ligh-color);
+	background: var(--dark-color)
+}
+
+#block-a-button:hover {
+	background-color: var(--orag-color);
+}
+
+#block-a-links {
+	margin-top: 10%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 100%;
+}
+
+.left-block-social-links {
+	width: 100%;
+	text-align: center;
+	font: 300 1.2rem/1.2 Sans-serif;
+	color: var(--dark-color);
+	
+}
+
+.left-block-social-links:hover {
+	color: var(--orag-color);
+}
+
+.social-images {
+	width: 14%;
+	vertical-align: middle;
+	margin-right: 3%;
+}
+
+#my-profile-image {
+	display: block;
+	margin: 5% auto;
+	width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
