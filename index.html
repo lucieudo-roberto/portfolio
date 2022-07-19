@@ -8,7 +8,7 @@
 
 <html lang="pt-br">
 	<head>
-		<title> lucieudo roberto - Portifolio </title>
+		<title> lucieudo roberto - Portfolio </title>
 		<meta name="viewport" content="width=device-width"/>
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/style.css"/>
@@ -16,45 +16,84 @@
 	</head>
 	<body>
 		<nav id="head-menu">
-			<a class="head-menu-link" href="#">início</a>
-			<a class="head-menu-link" href="#">sobre mim</a>
-			<a class="head-menu-link" href="#">habilidades</a>
-			<a class="head-menu-link" href="#">projetos</a>
-			<a class="head-menu-link" href="#">currículo</a>
-			<a class="head-menu-link" href="#">contatos</a>
+			<a class="menu-box" href=""><img class="menu-icon" src="res/ic_02.svg"/><span class="menu-text">home    </span></a>
+			<a class="menu-box" href=""><img class="menu-icon" src="res/ic_03.svg"/><span class="menu-text">skills  </span></a>
+			<a class="menu-box" href=""><img class="menu-icon" src="res/ic_04.svg"/><span class="menu-text">projects</span></a>
+			<a class="menu-box" href=""><img class="menu-icon" src="res/ic_05.svg"/><span class="menu-text">contacts</span></a>
+			<a class="menu-box" href=""><img class="menu-icon" src="res/ic_06.svg"/><span class="menu-text">about me</span></a>
 		</nav>
 		
-		<section id="body-main">
-		
-		   <div id="left-box">
-				<header id="title-box">
-					<h2 class="title"> Olá</h2>
-					<h3 class="title"> eu sou <span id="my-name">Lucieudo Roberto</span> </h3>
-					<h4 class="title"> sou um dev front-end </h4>
-				</header>
+		<section id="home-page">
+			<header class="home-page-header">
+				<h1>Hi,</br> I'm <i>Lucieudo Roberto</i></br> i am an web developer </h1>
 				
-				<p id="description">	
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 					Quisque ac magna sit amet libero incidunt efficitur sit 
 					amet quis velit. Orci varius natoque penatibus et magnis 
-					dis parturient montes, nascetur ridiculus mus 
-				</p>
-				
-				<a href="#" id="about-me-bnt"> me conheça </a>
+					dis parturient montes, nascetur ridiculus mus. </h6>
+					
+				<a href="" id="about-me-bnt"> about me </a>
+			</header>
 			
-				<nav id="social-box">
-					<a href="#" class="social-link"> <img src="res/s01.png" class="social-images"> facebook </a>
-					<a href="#" class="social-link"> <img src="res/s02.png" class="social-images"> instagram </a>
-					<a href="#" class="social-link"> <img src="res/s03.png" class="social-images"> twitter </a>
-				</nav>
-			</div>
-			
-			<div id="right-box">
-				<img src="res/ic_02.svg" id="my-profile-image" />
+			<div id="home-social-links">
+				<img class="social-links-icons" src="res/ic_07.svg">
+				<img class="social-links-icons" src="res/ic_08.svg">
+				<img class="social-links-icons" src="res/ic_09.svg">
+				<img class="social-links-icons" src="res/ic_10.svg">
 			</div>
 		</section>
 		
-		<section id="aboute-me-section">
+		<section id="skill-page">
+			<div class="skill-box">
+				<h2> My Skills </h2>
+				<p class="skill-description"> 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Quisque ac magna sit amet libero incidunt efficitur sit 
+					Lorem ipsum dolor sit amet.<br><br> incidunt efficitur sit 
+					amet quis velit. Orci varius natoque penatibus et magnis 
+					dis parturient montes, nascetur ridiculus mus
+				</p>
+			</div>
+			<div class="skill-box">
+				<p class="skill-title"> web skills</p>
+				<div class="skill-range">
+					<span class="skill-name">html5</span>
+					<svg><rect id="rect_01" x="0" y="0"/><rect id="rect_02" x="0" y="0" width="90%"/></svg>
+				</div>
+				<div class="skill-range">
+					<span class="skill-name">css3</span>
+					<svg><rect id="rect_01" x="0" y="0"/><rect id="rect_02" x="0" y="0" width="85%"/></svg>
+				</div>
+				<div class="skill-range">
+					<span class="skill-name">javaScript</span>
+					<svg><rect id="rect_01" x="0" y="0"/><rect id="rect_02" x="0" y="0" width="65%"/></svg>
+				</div>
+				<div class="skill-range">
+					<span class="skill-name">Jquery</span>
+					<svg><rect id="rect_01" x="0" y="0"/><rect id="rect_02" x="0" y="0" width="35%"/></svg>
+				</div>
+				<div class="skill-range">
+					<span class="skill-name">Ajax</span>
+					<svg><rect id="rect_01" x="0" y="0"/><rect id="rect_02" x="0" y="0" width="54%"/></svg>
+				</div>
+				</br></br>
+				<p class="skill-title"> other skills</p>
+				<div class="skill-range">
+					<span class="skill-name">Lua Script</span>
+					<svg><rect id="rect_01" x="0" y="0"/><rect id="rect_02" x="0" y="0" width="25%"/></svg>
+				</div>
+				<div class="skill-range">
+					<span class="skill-name">Ansi C</span>
+					<svg><rect id="rect_01" x="0" y="0"/><rect id="rect_02" x="0" y="0" width="45%"/></svg>
+				</div>
+				<div class="skill-range">
+					<span class="skill-name">Redes</span>
+					<svg><rect id="rect_01" x="0" y="0"/><rect id="rect_02" x="0" y="0" width="44%"/></svg>
+				</div>
+				<div class="skill-range">
+					<span class="skill-name">Linux</span>
+					<svg><rect id="rect_01" x="0" y="0"/><rect id="rect_02" x="0" y="0" width="63%"/></svg>
+				</div>
 		</section>
 	
 	</body>
