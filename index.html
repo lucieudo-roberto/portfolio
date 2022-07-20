@@ -16,9 +16,9 @@
 	</head>
 	<body>
 		<nav id="head-menu">
-			<a class="menu-box" href=""><img class="menu-icon" src="res/ic_02.svg"/><span class="menu-text">home    </span></a>
-			<a class="menu-box" href=""><img class="menu-icon" src="res/ic_03.svg"/><span class="menu-text">skills  </span></a>
-			<a class="menu-box" href=""><img class="menu-icon" src="res/ic_04.svg"/><span class="menu-text">projects</span></a>
+			<a class="menu-box" href="#home-page"><img class="menu-icon" src="res/ic_02.svg"/><span class="menu-text">home    </span></a>
+			<a class="menu-box" href="#skill-page"><img class="menu-icon" src="res/ic_03.svg"/><span class="menu-text">skills  </span></a>
+			<a class="menu-box" href="#projetc-page"><img class="menu-icon" src="res/ic_04.svg"/><span class="menu-text">projects</span></a>
 			<a class="menu-box" href=""><img class="menu-icon" src="res/ic_05.svg"/><span class="menu-text">contacts</span></a>
 			<a class="menu-box" href=""><img class="menu-icon" src="res/ic_06.svg"/><span class="menu-text">about me</span></a>
 		</nav>
@@ -94,7 +94,44 @@
 					<span class="skill-name">Linux</span>
 					<svg><rect id="rect_01" x="0" y="0"/><rect id="rect_02" x="0" y="0" width="63%"/></svg>
 				</div>
+			</div>
 		</section>
-	
+		
+		<section id="projetc-page">
+			<h3> My projetc list </h3>
+			<div id="project-box">
+				<div class="project-item"><a href=""><img src="res/im_01.jpg" class="project-img"></a></div>
+				<div class="project-item"><a href=""><img src="res/im_02.jpg" class="project-img"></a></div>
+				<div class="project-item"><a href=""><img src="res/im_03.jpg" class="project-img"></a></div>
+				<div class="project-item"><a href=""><img src="res/im_04.jpg" class="project-img"></a></div>
+			</div>
+			<a href="" id="project-github-link"> view more </a>
+		</section>
+		
+		<footer id="footer-page">
+			<div id="footer-about-me">
+				<h4> about me </h4>
+				<p id="about-me-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Quisque ac magna sit amet libero incidunt efficitur sit 
+					amet quis velit. Orci varius natoque penatibus et magnis 
+					dis parturient montes, nascetur ridiculus mus.
+				</p>
+			</div>
+			
+			<div id="contact-me">
+				<span id="contact-me-label"> contact me or send a email </span>
+				<input type="email" id="email" placeholder="your email"/>
+				<textarea id="messg" placeholder="type your message here.."></textarea>
+				<button>send</button>
+				
+				<div id="contact-me-apps">
+					<img class="contact-links-icons" src="res/ic_07.svg">
+					<img class="contact-links-icons" src="res/ic_08.svg">
+					<img class="contact-links-icons" src="res/ic_09.svg">
+				</div>
+			</div>
+		</footer>
+		<p id="copy-right"> 2022 &copy; Lucieudo roberto </p>
 	</body>
 </html>
