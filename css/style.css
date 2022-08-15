@@ -1,12 +1,23 @@
 
 :root {
-	--dark-color: #2d383c;
+	--dark-color: #313131;
 	--ligh-color: #f4f4f4;
 	--blue-color: #39ace7;
 	--orag-color: #EF5B0C;
 }
 
-i {color: var(--orag-color);}
+i{color: var(--orag-color);}
+
+
+
+.i{transition: .2s;}
+
+.i:hover {
+	cursor: pointer;
+	margin-top: -5px;
+	transition: .2s;
+	filter: grayscale(0);
+}
 
 body{background-color: #f8f8f8;}
 
@@ -44,6 +55,8 @@ h1{font-size:  2.6rem;}
 	margin: auto auto;
 }
 
+.menu-box:hover .menu-text{color: var(--orag-color);}
+
 .menu-icon {
 	display: block;
 	margin: auto auto;
@@ -78,7 +91,7 @@ h1{font-size:  2.6rem;}
 #skill-page {
 	padding: 3% 0;
 	background-image: url("../res/ic_16.svg");
-	background-size: 40%;
+	background-size: 35%;
 	background-position: 100% 50%;
 	background-repeat: no-repeat;
 }
@@ -111,7 +124,6 @@ h1{font-size:  2.6rem;}
 .project-item {
 	display: block;
 	width: 100%;
-	height: auto;
 }
 
 #project-text{
@@ -143,14 +155,15 @@ h1{font-size:  2.6rem;}
 	display: block;
 	margin: 2% 0;
 	text-align: center;
-	font: 200 .9rem/1.4 'Poppins', Sans-serif;
+	font: 200 .8rem/1.4 Sans-serif;
 }
 
 .contact-icon{ 
-	width: min(30px,8%);
+	width: min(28px,7%);
 	margin: 2% auto;
 	vertical-align: middle; 
 	display: block;
+	cursor: pointer;
 }
 
 #copy-right{
@@ -160,5 +173,5 @@ h1{font-size:  2.6rem;}
 	margin: 1% 0;
 	text-align: center;
 	color: var(--dark-color);
-	font: 200 10px/1.4 'Poppins', Sans-serif;
+	font: 200 10px/1.4 Sans-serif;
 }
