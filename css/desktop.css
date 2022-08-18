@@ -1,0 +1,49 @@
+@media (min-width: 1023px) {
+    body{}
+    #h-menu { 
+        border-bottom: 1px solid #c3c3c3;
+        margin: 0; padding: .5%; 
+        background-color: #f4f4f4;
+    }
+    .hm-icon {
+        display: block; width: 30px;
+        margin: 0 auto; cursor: pointer;
+    }
+
+    #s-home {
+        background-image: url('../res/ic_11.png');
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position: 98% 30%;
+        margin-top: 10%; width: 950px;
+
+    }
+    #home-text {
+        width: 60%;
+        margin-right: 50%;
+    }
+    .home-icon { width:40%; margin:1%;}
+
+    #s-about {
+        margin-top: 20%;
+        margin-top: 10%; width: 950px;
+    }
+    #about-img {
+    display: block;
+    width: 15%;
+    border-radius: 100%;
+    margin: 1% 0;
+    border: 1px solid #515151;
+    }
+
+    #about-text {
+    width: 60%;
+    font: 300 1.2rem/1.4 Sans-serif;
+    text-align: justify;
+    margin:auto 5%;
+    color: var(--dark-color);
+    text-indent: 10px;
+    }
+    #s-skill {margin-top: 15%;}
+    #s-project {margin-top: 20%;}
+}

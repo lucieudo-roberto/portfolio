@@ -5,4 +5,19 @@
 }
 
 a{text-decoration: none;}
-i{font-style: normal;}
+
+:root {
+    --white-color: #f4f4f4;
+    --dark-color: #313131;
+}
+
+html {
+    font-size: 14px;
+    background-color: #fff;
+}
+
+mark {
+    color: orange; font-weight: 800;
+    background-color: transparent;
+    font-style: italic;
+}
