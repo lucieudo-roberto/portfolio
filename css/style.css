@@ -6,7 +6,7 @@
 	color: var(--dark-color);
   	border-left: 4px solid orange;
   	padding-left: 2%;
-}
+}._h1{font-size: 2.3rem;margin: 0 0 10% 0;}
 
 #menu {
     display: grid;
@@ -29,6 +29,7 @@
 	display: flex; flex-wrap: wrap;
 	width: min(650px,90%); margin: 15% auto;
 	border-bottom: 1px solid #cecece;
+	padding-bottom: 5%;
 }
 
 #home-text, #about-text, #skill-text  {
@@ -106,7 +107,7 @@
 #message {
 	width: 95%; height: 80px; margin: 2% auto;
 	padding: 2%;outline: none;
-	text-align: left; font: 500 1.1rem/1.1 Sans-serif;
+	text-align: left; font: 400 1.1rem/1.1 Sans-serif;
 	border: 1px solid #818181; color: var(--dark-color);
 }
 

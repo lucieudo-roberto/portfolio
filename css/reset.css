@@ -17,7 +17,7 @@ html {
 }
 
 mark {
-    color: orange; font-weight: 800;
+    color: orange; font-weight: 400;
     background-color: transparent;
     font-style: italic;
 }
