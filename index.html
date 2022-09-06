@@ -9,8 +9,10 @@
     <meta name="theme-color" content="orange"/>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/desktop.css"/>
     <link rel="icon" href="res/ic_01.ico"/>
-    <!-- meta http-equiv="refresh" content="5" -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -103,10 +105,10 @@
     
     <section id="contact">
     	<h4 class="title">contatos <i class="emoji">&#128587;</i></h4>
-    	<form id="form-x">
+    	<form id="form-x" method="post">
     		<input type="text" placeholder="nome" id="f-name"/>
     		<input type="text" placeholder="sobre nome" id="l-name"/>
-    		<input type="email" placeholder="seu email.." id="email"/>
+    		<input type="email" placeholder="seu email.." id="e-mail" />
     		<textarea id="message" placeholder="Escreva sua mensagem.."></textarea>
     		<input type="button" id="send-bnt" value="enviar">
     	</form>
