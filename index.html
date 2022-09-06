@@ -104,10 +104,10 @@
     <section id="contact">
     	<h4 class="title">contatos <i class="emoji">&#128587;</i></h4>
     	<form id="form-x">
-    		<input type="text" placeholder="nome" id="f-name"/>
-    		<input type="text" placeholder="sobre nome" id="l-name"/>
-    		<input type="text" placeholder="assunto" id="e-mail"/>
-    		<textarea id="message" placeholder="Escreva sua mensagem.."></textarea>
+    		<input type="text" placeholder="nome" id="f-name" maxlength="30" required/>
+    		<input type="text" placeholder="sobre nome" id="l-name" maxlength="35" required/>
+    		<input type="text" placeholder="assunto" id="e-mail" maxlength="50"/>
+    		<textarea id="message" placeholder="Escreva sua mensagem.." maxlength="256" required></textarea>
     		<input type="button" id="send-bnt" value="enviar" onclick="send_mail()">
     	</form>
     	<a id="copy">&copy; - lucieudo roberto, +55 (87) 9.9972-6429 </a>
