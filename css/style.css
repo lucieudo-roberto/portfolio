@@ -101,7 +101,7 @@
 	background: transparent;
 }
 
-#-email {
+#e-mail {
 	display: block; width: 100%; border: none;
 	border-bottom: 1.5px solid #000;
 	font: 400 1.1rem/1.1 Sans-serif; color: var(--dark-color);

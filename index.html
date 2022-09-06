@@ -9,10 +9,8 @@
     <meta name="theme-color" content="orange"/>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/desktop.css"/>
     <link rel="icon" href="res/ic_01.ico"/>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="index.js"></script>
+    <!-- meta http-equiv="refresh" content="5" -->
 </head>
 
 <body>
@@ -105,15 +103,15 @@
     
     <section id="contact">
     	<h4 class="title">contatos <i class="emoji">&#128587;</i></h4>
-    	<form id="form-x" method="post">
+    	<form id="form-x">
     		<input type="text" placeholder="nome" id="f-name"/>
     		<input type="text" placeholder="sobre nome" id="l-name"/>
-    		<input type="email" placeholder="seu email.." id="e-mail" />
+    		<input type="email" placeholder="seu email.." id="e-mail"/>
     		<textarea id="message" placeholder="Escreva sua mensagem.."></textarea>
-    		<input type="button" id="send-bnt" value="enviar">
+    		<input type="button" id="send-bnt" value="enviar" onclick="send_mail()">
     	</form>
     	<a id="copy">&copy; - lucieudo roberto, +55 (87) 9.9972-6429 </a>
     </section>
-    
+    <script src="index.js"></script>
 </body>
 </html>
