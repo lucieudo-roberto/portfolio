@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="title" id="status">.</h1>
+  <div class="door-box">
+      <img src="res/closed_door.png" class="door" onclick="opendoor(1)">
+      <img src="res/closed_door.png" class="door" onclick="opendoor(2)">
+      <img src="res/closed_door.png" class="door" onclick="opendoor(3)">
+  </div>
+  <audio id="sound" src="res/biu.mp3" id="audio_go" controls></audio>
+  <audio src="res/b.mp3" id="audio_go" controls></audio>
+  <button class="sort-bnt" onclick="refresh()">sorter</button>
+  <script src="main.js"></script>
+</body>
+</html>
